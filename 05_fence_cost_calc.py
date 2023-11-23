@@ -19,7 +19,7 @@ def num_check(question):
             # outputs error if input is invalid
             else:
                 print(error)
-                print()
+
 
         except ValueError:
             print(error)
